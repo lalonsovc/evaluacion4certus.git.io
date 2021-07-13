@@ -1,0 +1,109 @@
+a { 
+	text-decoration: none;
+	color: #2f2f2f;  
+}
+
+#header1 {
+	display: inline;
+	float: left;
+	width: 100%;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.cuadrocont{
+	display: inline;
+	float: left;
+	opacity: 0.84;
+	width: 100%;
+	position: relative;
+	top: 120px;
+	background-color: #EE3268;
+    background: linear-gradient(to right, #1f1d83, #72d7ff);
+
+}
+
+.area_logo{
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.logo {
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	font-weight: 600;
+	background: #fff;
+	padding: 5px 20px;
+	margin-bottom: 30px;
+	color: #EE3268;
+}
+.contenido_let {
+	display: inline;
+	float: right;
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+.contenido_let h1 {
+	font-size: 45px;
+	color: #fff;
+	font-weight: 300;
+	position: relative;
+	bottom: 70px;
+}
+
+
+.contenido_let h2 {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 300;
+	position: relative;
+	bottom: 60px;
+}
+
+.creacion {
+	background-color: #fff;
+	color: #333;
+	padding: 5px 10px;
+	display: inline-block;
+	font-weight: 600;
+	position: relative;
+	bottom: 80px;
+
+}
+body{
+
+    width: 100%;
+    height: 100%;
+    background-size: 120%;
+    animation: movimiento 10s infinite linear alternate;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom right;
+    }to{
+        background-position: top left;
+    }
+}
+
+#entrar{
+	height: 70px;
+	width: 170px;
+	color: #EE3268;
+	position: relative;
+	bottom: 50px;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	font-weight: 600;
+}
+
+
+
+

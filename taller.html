@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talleres</title>
+    <link rel="stylesheet" href="css_taller/talleres.css">
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script>
+</head>
+<body class="container" >
+    <header class="header">                                           
+        <a href="pagina_principal.html"><img src="images/josegalvez.png" alt="logo" id="logo"></a>
+        <a href="pagina_principal.html"><button id="boton1">Inicio</button></a>
+        <a href="login.html"><button id="boton2">Intranet</button></a>
+    </header>
+    <main class="main"style="background-image: url(images_taller/fondo3.jpg); opacity: 10;">
+        <div class="transbox">
+            <div>
+                <h1>TALLERES</h1>
+                <p class="parrafo1">Espacios educativos donde promovemos proceso de apropiación de conocimientos y de participación social😃♟💻</p>
+            </div>
+            <div class="talleres">
+                
+                <div class="item1 flex">
+                    <img src="images_taller/ajedrez.jpg" alt="ajedrez">
+                    <div class="item-taller">
+                        <h4>Taller de Ajedrez</h4>
+                        <p class="texto">En este taller aprenderás a analizar la belleza, complejidad y componentes escenciales del ajedrez.</p>
+                        <input type="button" value="ver" class="boton" onclick="javascript: mensaje()">
+                    </div>
+                </div>
+                <div class="item2 flex">
+                    <img src="images_taller/computacion.jpg" alt="computacion">
+                    <div class="item-taller">
+                        <h4>Taller de Computación</h4>
+                        <p class="texto"> En este Taller aprenderás a ser parte del proceso creativo que define la tecnologia que usamos.</p>
+                        <input type="button" value="ver" class="boton" onclick="javascript: mensaje()">
+                    </div>
+                </div>
+                <div class="item3 flex">
+                    <img src="images_taller/ingles.jpg" alt="ingles">
+                    <div class="item-taller">
+                        <h4>Taller de Ingles</h4>
+                        <p class="texto">En este taller aprenderás Inglés por medio de situaciones reales de forma práctica y divertida.</p>
+                        <input type="button" value="ver" class="boton" onclick="javascript: mensaje()">     
+                    </div> 
+                </div>
+                <div class="item4 flex">
+                    <img src="images_taller/gastronomia.jpg" alt="gastronomia">
+                    <div class="item-taller">
+                        <h4>Taller de Gastronomía</h4>
+                        <p class="texto">Este taller brinda a los estudiantes un ambiente que les permita aprender sobre la cocina peruana e internacional.</p>
+                        <input type="button" value="ver" class="boton" onclick="javascript: mensaje()">     
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div id="copy">© 2021 Colegio José Gálvez-Callao</div>
+    </footer>
+    <script src="js_taller/taller.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/LOGIN.CSS">
+</head>
+<body>
+    
+        
+ <div class="container-portada" style="position: absolute;">
+    <div class="capa-gradient"></div>
+    <div class="container-details">
+        <div class="details">
+            <h1>JOSE GALVEZ</h1>
+            <p>Nuestra misión es ofrecer a nuestros alumnos el mejor rendimiento academico,nuestras enseñanzas que destacan entre distintos profesores y talleres de aprendizaje, dedicada a personas que desean resaltar sus atributos por medio de una mejor enseñanza, proporcionando ferias exclusivas que cuentan con la calidad y respaldo SAN MARCOS, a precios comodos y con atractivas ofertas a nuestros padres de familia interesados.<br><br>Ser la mejor escuela, que se preocupa por el bienestar de nuestros alumnos, brindando elegancia, confianza y toda la calidad que una escuela Peruana puede entregar a su distinguidos y brillantes alumnos.
+            </p>
+            <button>Ver mas detalles</button>
+        </div>
+    </div>
+    <div class="for">
+        <h4>INGRESO</h4>
+        <select name="select" id="selector">
+            <option>Seleccionar Usuario</option>
+            <option>Alumno</option>
+            <option>Docente</option>
+        </select>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
+        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+        <input class="botons" type="submit" value="Ingresar" onclick="getInfo()">    
+        <p><a href="#">Crear una cuenta</a></p>
+    </div>
+ </div>
+ <script src="js/login.js"></script>
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="js/sweetAlert.js"></script>
+</body>
+</html>

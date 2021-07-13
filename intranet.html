@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/intranet.css" type="text/css">
+</head>
+<body>
+    
+    <div id="contenedor">
+    <header><img src="images/josegalvez.png" id="image">
+    
+    <input type="checkbox" id="check">
+    <label for="check" class="icon-menu"><img src="images/menu.png"/></label>
+    <nav class="menu">
+        <ul>
+            <li id="docente"><img src="images/i-person.png" id="i-person"><BR>DOCENTE</li>
+            <li><a class="link" href="#">Inicio</a></li>
+            <li><a class="link" href="#">Notas</a></li>
+            <ul>
+                <li><a class="link" href="#">Primaria</a></li>
+                <ul>
+                    <li><a class="link" href="#">Tercer grado</a></li>
+                    <li><a class="link" href="#">Cuarto grado</a></li>
+                </ul>
+                <li><a class="link" href="#">Secundaria</a></li>
+            </ul>
+        </ul> 
+    </nav>
+    <nav class="cabecera">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">TALLERES</a></li>
+            <li><a href="#">INTRANET</a></li>
+            <li><a href="#"><img src="images/i-logout.png" id="i-logout"></a></li>
+        </ul>
+    </nav>
+
+
+</header>
+        <div id="contenedor1">
+        <div id="list">Listado de estudiantes</div>
+        <div id="tabla">
+            <table id="table" border="1">
+                <tr>
+                <th>Nombres</th>
+                <th>Grupo</th>
+                <th>Notas</th>
+                <th>Editar</th>
+                <th>Eliminar</th>
+                </tr>
+                <tr>
+                    <td>Luis Benito García</td>
+                    <td>3° A</td>
+                    <td><button class="b1">Notas</button></td>
+                    <td><button class="b2"><a href="#notas">Editar</a></button></td>
+                    <td><button class="b3">Eliminar</button></td>
+                </tr>
+                <tr>
+                    <td>Leon Seminario</td>
+                    <td>4° A</td>
+                    <td><button class="b1">Notas</button></td>
+                    <td><button class="b2">Editar</button></td>
+                    <td><button class="b3">Eliminar</button></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    
+    <aside>
+
+        <div id="calendar">
+            <div id="cron"><img src="images/i-calendar.png"  />  Cronograma</div>
+            <h1>Julio 2021</h1>
+            <div id="n1">
+            <ol>
+                <li class="day-name">Lun</li>
+                <li class="day-name">Mar</li>
+                <li class="day-name">Mié</li>
+                <li class="day-name">Jue</li>
+                <li class="day-name">Vie</li>
+                <li class="day-name">Sáb</li>
+                <li class="day-name">Dom</li>
+
+                <li class="first-day">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+            </ol>
+            </div>
+        </div>
+    </aside> 
+    <div id="notas"><a name="notas">
+        <form>
+        <table id="t1">
+            <tr>
+                <td><b>Bimestres: </b></td><td> <b>Notas: </b></td>
+            </tr>
+            <tr>
+                <td>Primer Bimestre</td>
+                <td><input type="number" name="nota1" id="nota1" min="0" max="20"></td>
+            </tr>
+            <tr>
+                <td>Segundo Bimestre</td>
+                <td><input type="number" name="nota2" id="nota2" min="0" max="20"></td>
+            </tr>
+            <tr>
+                <td>Tercer Bimestre</td>
+                <td><input type="number" name="nota3" id="nota3" min="0" max="20"></td>
+            </tr>
+            <tr>
+                <td>Cuarto Bimestre</td>
+                <td><input type="number" name="nota4" id="nota4" min="0" max="20"></td>
+            </tr>
+            <tr>
+                <td>Promedio</td>
+                <td><div id="promediototal"></div><input type="button" value="promedio" id="prom" onclick="promedio_()"></td>
+            </tr>
+        </table>
+        <div id="aprob" >APROBADO</div>
+        <div id="desap">DESAPROBADO</div>
+        <div id="cont3">
+            <button type="submit" id="reset">BORRAR</button>
+            <button type="submit" id="guardar">GUARDAR</button>
+        </div>
+        </form> 
+    </a>
+    </div>
+    
+    </div>
+<script src="js/intranet.js"></script>
+</body>
+</html>
